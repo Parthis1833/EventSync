@@ -1,0 +1,6 @@
+{
+  "name": "EventSync - Automated Social Syndication",
+  "description": "Real-time event photo broadcasting and social syndication platform for planners and attendees.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

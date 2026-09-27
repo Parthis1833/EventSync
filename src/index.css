@@ -1,0 +1,101 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #3525cd;
+  --color-primary-container: #4f46e5;
+  --color-on-primary: #ffffff;
+  --color-on-primary-container: #dad7ff;
+  --color-primary-fixed: #e2dfff;
+  --color-primary-fixed-dim: #c3c0ff;
+  --color-on-primary-fixed: #0f0069;
+  --color-on-primary-fixed-variant: #3323cc;
+  --color-secondary: #4648d4;
+  --color-secondary-container: #6063ee;
+  --color-on-secondary: #ffffff;
+  --color-on-secondary-container: #fffbff;
+  --color-secondary-fixed: #e1e0ff;
+  --color-secondary-fixed-dim: #c0c1ff;
+  --color-on-secondary-fixed: #07006c;
+  --color-on-secondary-fixed-variant: #2f2ebe;
+  --color-tertiary: #00505f;
+  --color-tertiary-container: #006a7c;
+  --color-on-tertiary: #ffffff;
+  --color-on-tertiary-container: #93e8ff;
+  --color-tertiary-fixed: #acedff;
+  --color-tertiary-fixed-dim: #4cd7f6;
+  --color-surface: #faf8ff;
+  --color-surface-dim: #d2d9f4;
+  --color-surface-bright: #faf8ff;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-low: #f2f3ff;
+  --color-surface-container: #eaedff;
+  --color-surface-container-high: #e2e7ff;
+  --color-surface-container-highest: #dae2fd;
+  --color-on-surface: #131b2e;
+  --color-on-surface-variant: #464555;
+  --color-inverse-surface: #283044;
+  --color-inverse-on-surface: #eef0ff;
+  --color-inverse-primary: #c3c0ff;
+  --color-outline: #777587;
+  --color-outline-variant: #c7c4d8;
+  --color-surface-tint: #4d44e3;
+  --color-background: #faf8ff;
+  --color-on-background: #131b2e;
+  --color-error: #ba1a1a;
+  --color-on-error: #ffffff;
+  --color-error-container: #ffdad6;
+  --color-on-error-container: #93000a;
+  
+  --radius-DEFAULT: 1rem;
+  --radius-lg: 2rem;
+  --radius-xl: 3rem;
+  --radius-full: 9999px;
+
+  --font-sans: 'Plus Jakarta Sans', sans-serif;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 1;
+}
+
+.custom-scroll::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+.custom-scroll::-webkit-scrollbar-thumb {
+  background: #c7c4d8;
+  border-radius: 9999px;
+}
+
+.custom-dashed-border {
+  background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='16' ry='16' stroke='%234F46E580' stroke-width='2' stroke-dasharray='8%2c 8' stroke-dashoffset='0' stroke-linecap='round'/%3e%3c/svg%3e");
+}
+
+/* Typography Utility Classes matching design system */
+.font-headline-xl { font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 700; letter-spacing: -0.02em; }
+.text-headline-xl { font-size: 32px; line-height: 40px; }
+.font-headline-lg { font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 700; letter-spacing: -0.015em; }
+.text-headline-lg { font-size: 24px; line-height: 32px; }
+.font-headline-md { font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 600; letter-spacing: -0.01em; }
+.text-headline-md { font-size: 20px; line-height: 28px; }
+.font-headline-sm { font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 600; letter-spacing: -0.005em; }
+.text-headline-sm { font-size: 16px; line-height: 24px; }
+.font-body-lg { font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 400; }
+.text-body-lg { font-size: 16px; line-height: 26px; }
+.font-body-md { font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 400; }
+.text-body-md { font-size: 14px; line-height: 22px; }
+.font-body-sm { font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 400; }
+.text-body-sm { font-size: 12px; line-height: 18px; }
+.font-label-lg { font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 600; letter-spacing: 0.01em; }
+.text-label-lg { font-size: 14px; line-height: 20px; }
+.font-label-md { font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 600; letter-spacing: 0.02em; }
+.text-label-md { font-size: 12px; line-height: 16px; }
+.font-label-sm { font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 700; letter-spacing: 0.04em; }
+.text-label-sm { font-size: 11px; line-height: 14px; }
